@@ -1,0 +1,30 @@
+.pdb-3{padding-bottom: 3%;}
+.txt-cen{text-align: center;}
+.whatsapp-icon, .mail-icon, .call-icon {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    z-index: 999
+}
+.whatsapp-icon {
+    left: 23px;
+    bottom: 12px;
+}
+.call-icon {
+    right: 23px;
+    bottom: 77px;
+}
+.mail-icon {
+    right: 23px;
+    bottom: 12px;
+}
+.whatsapp-icon img{width:70px;}
+.call-icon img, .mail-icon img{width: 50px;}
+@media only screen and (max-width:767px) {
+    .whatsapp-icon {
+        height: 80px;
+        width: 80px;
+        margin-left: -25px;
+        margin-bottom: -25px
+    }
+}
